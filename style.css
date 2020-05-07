@@ -1,0 +1,566 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    
+   
+}.header-bar
+{
+    padding-top: 20px;
+    width: 100%;    
+}
+.icons ul
+{
+    list-style-type: none;
+}
+.icons ul li{
+    display: inline-block;
+    margin-left:20px;
+    height: 10px;
+    width: 10px;
+}
+.options
+{
+    display: flex;
+    width: 500px;
+    padding: 5px;
+}
+.options button {
+    margin-left: 10px;
+    background-color: white;
+}
+.millions
+{
+    color: white;
+    margin-left: 0px;
+}
+ 
+.header-nav
+{ 
+    position: relative;
+    background-color: white;
+    margin-left: 20px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+ 
+}
+.himg
+{
+    width: 160px;
+    height: 60px;
+}
+.navclicks
+{
+    margin-left: 300px;
+    width: 920px;
+    position: absolute;
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+    float: right;
+    list-style-type: none;
+}
+.navclicks li
+{  
+    width: auto;
+    margin-top: 15px;
+    height: 30px;
+    margin-left: 10px;
+    text-justify: auto;
+    float: left;
+}
+#nav-item
+{
+    color: black;
+    font-family: sans-serif;
+}
+
+.active #nav-item
+{
+    padding:14px;
+    text-justify: auto;
+    height: 15px;
+    border-radius: 25px;
+    background-color: blue;
+}
+#nav-item:hover
+{
+    color: white;
+    text-decoration: none   ;
+    padding:14px;
+    text-justify: auto;
+    height: 15px;
+    border-radius: 25px;
+    background-color: blue;
+}
+.navclicks li:hover ul {
+    display: block; 
+    text-decoration: none; 
+    margin-top:20px;
+    width: 150px;
+    list-style-type: none;
+    background-color: white;
+}
+.navclicks li ul li:hover{
+    background-color: blue;
+    color: white;
+}
+.navclicks li ul li ul li:hover{
+    background-color: blue;
+    color: white;
+}
+.navclicks li ul li ul li ul li:hover{
+    background-color: blue;
+    color: white;
+}
+.navclicks li ul{
+    display: hidden;
+}
+.navclicks li ul li:hover ul
+{
+    display: block;  
+    margin-left:150px;
+    text-decoration: none;
+    width: 150px;
+    list-style-type: none;
+    background-color: white;
+}
+.navclicks li ul li ul
+{
+    display: hidden;
+}
+
+.navclicks li ul li ul li:hover ul
+{
+    text-decoration: none;
+    display: block;  
+    margin-left:100px;
+    margin-left:150px;
+    width: 150px;
+    list-style-type: none;
+    background-color: white;
+}
+.navclicks li ul li ul li ul
+{
+    display: hidden;
+}
+.navclicks li ul li ul li ul li:hover
+{
+    display: block;  
+    margin-left:100px;
+    text-decoration: none;
+    margin-left:150px;
+    width: 150px;
+    list-style-type: none;
+    background-color: white;
+}
+
+.navclicks li:hover ul li a{
+    color:black;
+}
+.navclicks li:hover ul li:hover{
+    background-color: blue;
+    color: white;   
+}
+.navclicks li ul li{
+    float: none;
+    list-style-type: none;
+    background-color: white;
+}
+.navclicks li ul 
+{
+    color: black;
+    display: none;
+}
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.bs-example{
+	margin: 20px;
+}
+
+div.Slidepara{
+  width:90%;
+  height: 30px;
+  
+  margin-left: 50px;
+  position: absolute;
+  margin-top: 50px;
+  background-color: blue;
+  overflow:hidden;
+}
+div.Slidepara p {
+  animation: slide-left 10s;
+  color: white;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.Introduction
+{
+    margin-top: 140px;
+    padding-top: auto;
+    height: auto;
+}
+.Intro
+{
+    justify-content: center;
+    margin-left: 360px;
+    font-size: 3em;
+    height: 50px;
+    
+    
+}
+.Intro hr
+{
+    margin-top: 70px;
+    margin-left: 160px;
+    width: 200px;
+    background-color: green;
+    height: 2px;
+}
+.introimg img
+{
+    margin: -130px 0px 0px 229px;
+    border: solid 5px white;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+}
+.Introduction p
+{
+    padding: 0px 50px 0px 50px;
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:50px;
+    line-height: 30px;
+    text-align: justify;
+    visibility: visible;
+}
+
+#services
+{
+    display: flex;
+    height: 400px;
+    width: 100%;   
+    background-color: blue;
+    padding-left: 60px; 
+}
+.function1
+{
+    height: 300px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    display: flex;    
+    flex-direction: column;
+    width: 284px;
+    margin-left: -31px;    
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-left: 0px;
+}
+.function1 img{
+    height: 100px;
+    width: 120px;
+    margin-left: 60px;
+    padding-left: 10px;
+}
+.function1 h5 h2{
+
+    font-family: serif;
+
+}
+.Do
+{
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.Dop
+{
+    
+    margin-left: 300px;
+    font-size: 3em;
+    height: 50px;
+}
+.Dop p{
+    padding: 0px 50px 0px 0px;
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:50px;
+    line-height: 30px;
+    text-align: justify;
+    visibility: visible;
+}
+.Dop hr
+{
+    margin-top: 70px;
+    margin-left: 160px;
+    width: 200px;
+    background-color: green;
+    height: 2px;
+}
+
+.Dop img
+{
+    margin: -130px 0px 0px 229px;
+    border: solid 5px white;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+}
+.content
+{
+    margin-top: 110px;
+    margin-left: 180px;
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+    overflow: hidden;
+    width: 80%;
+    
+}
+.textbox
+{
+    align-content: center;
+    box-shadow: 10px 10px 10px black;
+    margin-left: 80px;
+    height: 200px;
+    width: 300px;
+}
+.textbox img
+{
+    margin-top: 25px;
+    margin-left: 90px;
+    
+
+}
+.textbox h4
+{
+    color: blue;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.Gallery{
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.Gal
+{
+    margin-left: 300px;
+    font-size: 3em;
+    height: auto;
+}   
+.Gallery p
+{
+    padding: 0px 50px 0px 0px;
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 110px;
+    line-height: 30px;
+    text-align: justify;
+    visibility: visible;
+}
+.Gallery hr{
+    margin-top: 70px;
+    margin-left: 160px;
+    width: 200px;
+    background-color: green;
+    height: 2px;
+}
+.Gallery .img
+{
+    margin-top: -23px;
+}
+.Gallery img
+{
+    margin: -85px 0px 0px 229px;
+    border: solid 5px white;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+}
+.Galimg
+{
+    
+    width: 80%;
+    margin-left: 120px;
+    height: 200px;
+    margin-top: 0px;
+
+}
+.galleryitem
+{
+
+    width: 100%;
+    
+}
+
+.thumb
+{
+    position: relative; 
+    display: inline-block;
+    overflow:hidden;
+    width: 195px;
+    height: 170px;
+}
+
+.thumb img{
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-shade
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 60px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: white;
+}
+
+.thumb:hover .overlay-shade
+{
+    opacity: 1;
+    border: gray 2px solid;
+}
+
+.icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.thumb i
+{
+    margin-top: 70px;
+    
+}
+.info
+{
+    background-color: black;
+    width: 100%;
+    height: 350px;
+    padding-left: 100px;
+    padding-top: 50px;
+    font-size: 20px;
+    color: white;
+    position: relative;;
+}
+.Office{
+    width: 300px;
+    
+}
+.Office ul
+{
+    list-style-type:none;
+}
+.link
+{
+    width: 300px;
+    display: flex;
+    
+}
+.link .G hr
+{
+    width: 66px;
+    margin-top:30px;
+    margin-left: -106px;
+    background-color: rgb(2, 255, 2);
+    height: 3px;
+}
+.link .l hr{
+    width: 230px;
+    margin-top:31px;
+    background-color: rgb(42, 173, 42);
+    height: 1px;
+    margin-left: -40px;
+}
+.Contact
+{
+    width: 300px;    
+}
+
+.Contact ul{
+    list-style-type: none;
+    
+    
+}
+.Contact ul li
+{
+    display: inline-block;
+}
+.Contact ul li i{
+    background-color: blue;
+    
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+.Copy
+{
+    background-color: rgb(73, 73, 233);
+    color: white;
+    padding: 20px 0px 0px 100px;
+    width: 100%;
+    height: 60px;
+}
+.scrolltop
+{
+    background: rgba(0, 0, 0, 0.1);
+    bottom: 15px;
+    
+    height: 50px;
+    
+    position: fixed;
+    right: 15px;
+    
+    text-decoration: none;
+    width: 50px;
+    padding-right: 0px;
+    
+
+}
+.scrolltop .fa 
+{ font-size: 42px;
+    margin-right: 0px;
+}
